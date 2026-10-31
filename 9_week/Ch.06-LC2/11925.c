@@ -1,0 +1,15 @@
+#include <stdio.h>
+
+int main() {
+    int n = 0;
+    int total = 0;
+    scanf("%d", &n);
+
+    for (int i = 1; i<=n; i++) {
+        if (i % 5 == 0) {
+            total += i;
+        }
+    }
+
+    printf("%d", total);
+}
