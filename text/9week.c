@@ -4,6 +4,9 @@ int main() {
     // @note:char-string
     int a = 10;
     int b = 10;
+
+    printf("%d", a);
+    printf("%d", b);
     return a + b;
     // @note:/char-string
 }
