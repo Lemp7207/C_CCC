@@ -7,7 +7,7 @@ struct Student {
 
 int main() {
 	struct Student st;
-	// ?뚯씪 ?ъ씤??	FILE *fp;
+	FILE *fp;
 	FILE *pass;
 	FILE *fail;
 
